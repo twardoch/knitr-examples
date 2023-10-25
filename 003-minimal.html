@@ -66,7 +66,7 @@
   <title>A minimal knitr example in HTML</title>
 </head>
 <body>
-<div class="chunk" id="unnamed-chunk-1"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">library</span><span class="hl std">(knitr)</span>
+<div class="chunk" id="unnamed-chunk-2"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">library</span><span class="hl std">(knitr)</span>
 <span class="hl std">opts_chunk</span><span class="hl opt">$</span><span class="hl kwd">set</span><span class="hl std">(</span><span class="hl kwc">fig.width</span> <span class="hl std">=</span> <span class="hl num">5</span><span class="hl std">,</span> <span class="hl kwc">fig.height</span> <span class="hl std">=</span> <span class="hl num">5</span><span class="hl std">)</span>
 </pre></div>
 </div></div>
@@ -80,7 +80,7 @@
 
   <p>Boring stuff as usual:</p>
 
-<div class="chunk" id="unnamed-chunk-2"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl com">## a simple calculator</span>
+<div class="chunk" id="unnamed-chunk-4"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl com">## a simple calculator</span>
 <span class="hl num">1</span> <span class="hl opt">+</span> <span class="hl num">1</span>
 </pre></div>
 <div class="output"><pre class="knitr r">## [1] 2
@@ -107,7 +107,7 @@
   <p>Errors, messages and warnings can be put into <code>div</code>'s
   with different <code>class</code>es:</p>
 
-<div class="chunk" id="unnamed-chunk-3"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">sqrt</span><span class="hl std">(</span><span class="hl opt">-</span><span class="hl num">1</span><span class="hl std">)</span>  <span class="hl com"># warning</span>
+<div class="chunk" id="unnamed-chunk-8"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">sqrt</span><span class="hl std">(</span><span class="hl opt">-</span><span class="hl num">1</span><span class="hl std">)</span>  <span class="hl com"># warning</span>
 </pre></div>
 <div class="warning"><pre class="knitr r">## Warning in sqrt(-1): NaNs produced
 </pre></div>
@@ -126,7 +126,7 @@
   <p>In the end, let's show off a 3D plot from
   the <strong>rgl</strong> package.</p>
 
-<div class="chunk" id="unnamed-chunk-4"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">library</span><span class="hl std">(rgl)</span>
+<div class="chunk" id="unnamed-chunk-10"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">library</span><span class="hl std">(rgl)</span>
 <span class="hl std">knit_hooks</span><span class="hl opt">$</span><span class="hl kwd">set</span><span class="hl std">(</span><span class="hl kwc">rgl</span> <span class="hl std">= hook_rgl)</span>  <span class="hl com"># set up the hook first</span>
 </pre></div>
 </div></div>

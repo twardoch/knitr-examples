@@ -22,8 +22,8 @@ knitr::opts_knit$set(rmarkdown.pandoc.to = 'html')
 
 ```{r}
 images = c(
-  "figure/001-minimal-unnamed-chunk-2-1.png",
-  "figure/001-minimal-unnamed-chunk-2-2.png",
+  "figure/001-minimal-unnamed-chunk-4-1.png",
+  "figure/001-minimal-unnamed-chunk-4-2.png",
   "figure/003-minimal-html-cars-scatter-2.png"
 )
 ```
