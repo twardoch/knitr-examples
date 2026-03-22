@@ -325,9 +325,11 @@
 \end{alltt}
 
 
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# `stat\_bin2d()` using `bins = 30`. Pick better value `binwidth`.}}
+
 {\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin_2d-1} 
 \begin{kframe}\begin{alltt}
 \hlcom{# You can control the size of the bins by specifying the number of}
@@ -336,18 +338,16 @@
 \end{alltt}
 
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}
-
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 6 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin_2d-2} 
 \begin{kframe}\begin{alltt}
-\hldef{d} \hlopt{+} \hlkwd{geom_bin_2d}\hldef{(}\hlkwc{bins} \hldef{=} \hlnum{30}\hldef{)}
+\hldef{d} \hlopt{+} \hlkwd{geom_bin_2d}\hldef{(}\hlkwc{bins} \hldef{=} \hlkwd{list}\hldef{(}\hlkwc{x} \hldef{=} \hlnum{30}\hldef{,} \hlkwc{y} \hldef{=} \hlnum{10}\hldef{))}
 \end{alltt}
 
 
 {\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 2 rows containing missing values or values outside the scale range\\\#\# (`geom\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin_2d-3} 
 \begin{kframe}\begin{alltt}
 \hlcom{# Or by specifying the width of the bins}
@@ -355,7 +355,7 @@
 \end{alltt}
 
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).\\\#\# Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin_2d-4} 
 \end{knitrout}
 
@@ -376,9 +376,11 @@
 \end{alltt}
 
 
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# `stat\_bin2d()` using `bins = 30`. Pick better value `binwidth`.}}
+
 {\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin2d-1} 
 \begin{kframe}\begin{alltt}
 \hlcom{# You can control the size of the bins by specifying the number of}
@@ -387,18 +389,16 @@
 \end{alltt}
 
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}
-
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 6 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin2d-2} 
 \begin{kframe}\begin{alltt}
-\hldef{d} \hlopt{+} \hlkwd{geom_bin_2d}\hldef{(}\hlkwc{bins} \hldef{=} \hlnum{30}\hldef{)}
+\hldef{d} \hlopt{+} \hlkwd{geom_bin_2d}\hldef{(}\hlkwc{bins} \hldef{=} \hlkwd{list}\hldef{(}\hlkwc{x} \hldef{=} \hlnum{30}\hldef{,} \hlkwc{y} \hldef{=} \hlnum{10}\hldef{))}
 \end{alltt}
 
 
 {\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 2 rows containing missing values or values outside the scale range\\\#\# (`geom\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin2d-3} 
 \begin{kframe}\begin{alltt}
 \hlcom{# Or by specifying the width of the bins}
@@ -406,7 +406,7 @@
 \end{alltt}
 
 
-{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).\\\#\# Removed 5 rows containing missing values or values outside the scale range\\\#\# (`geom\_tile()`).}}\end{kframe}
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Removed 478 rows containing non-finite outside the scale range\\\#\# (`stat\_bin2d()`).}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_bin2d-4} 
 \end{knitrout}
 
@@ -499,20 +499,26 @@
 \end{alltt}
 
 
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Orientation is not uniquely specified when both the x and y aesthetics are\\\#\# continuous. Picking default orientation 'x'.}}
+
 {\ttfamily\noindent\color{warningcolor}{\#\# Warning: Continuous x aesthetic\\\#\# i did you forget `aes(group = ...)`?}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_boxplot-9} 
 \begin{kframe}\begin{alltt}
 \hlkwd{ggplot}\hldef{(diamonds,} \hlkwd{aes}\hldef{(carat, price))} \hlopt{+}
   \hlkwd{geom_boxplot}\hldef{(}\hlkwd{aes}\hldef{(}\hlkwc{group} \hldef{=} \hlkwd{cut_width}\hldef{(carat,} \hlnum{0.25}\hldef{)))}
 \end{alltt}
-\end{kframe}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Orientation is not uniquely specified when both the x and y aesthetics are\\\#\# continuous. Picking default orientation 'x'.}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_boxplot-10} 
 \begin{kframe}\begin{alltt}
 \hlcom{# Adjust the transparency of outliers using outlier.alpha}
 \hlkwd{ggplot}\hldef{(diamonds,} \hlkwd{aes}\hldef{(carat, price))} \hlopt{+}
   \hlkwd{geom_boxplot}\hldef{(}\hlkwd{aes}\hldef{(}\hlkwc{group} \hldef{=} \hlkwd{cut_width}\hldef{(carat,} \hlnum{0.25}\hldef{)),} \hlkwc{outlier.alpha} \hldef{=} \hlnum{0.1}\hldef{)}
 \end{alltt}
-\end{kframe}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning: Orientation is not uniquely specified when both the x and y aesthetics are\\\#\# continuous. Picking default orientation 'x'.}}\end{kframe}
 \includegraphics[width=\maxwidth]{figure/021-ggplot2-geoms-geom_boxplot-11} 
 \begin{kframe}\begin{alltt}
 \hlcom{## No test: }

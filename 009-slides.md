@@ -81,30 +81,31 @@ print(sessionInfo(), locale = FALSE)
 ```
 
 ```
-## R version 4.4.0 (2024-04-24)
+## R version 4.5.3 (2026-03-11)
 ## Platform: x86_64-pc-linux-gnu
-## Running under: Ubuntu 22.04.4 LTS
+## Running under: Ubuntu 24.04.3 LTS
 ## 
 ## Matrix products: default
 ## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
-## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.26.so;  LAPACK version 3.12.0
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] ggplot2_3.5.1 knitr_1.46.4 
+## [1] ggplot2_4.0.2 knitr_1.51.4 
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] vctrs_0.6.5      nlme_3.1-164     cli_3.6.2        rlang_1.1.3     
-##  [5] xfun_0.44        highr_0.10.2     labeling_0.4.3   glue_1.7.0      
-##  [9] colorspace_2.1-0 formatR_1.14     scales_1.3.0     fansi_1.0.6     
-## [13] grid_4.4.0       munsell_0.5.1    evaluate_0.23    tibble_3.2.1    
-## [17] lifecycle_1.0.4  compiler_4.4.0   codetools_0.2-20 pkgconfig_2.0.3 
-## [21] mgcv_1.9-1       farver_2.1.2     lattice_0.22-6   digest_0.6.35   
-## [25] R6_2.5.1         utf8_1.2.4       pillar_1.9.0     splines_4.4.0   
-## [29] magrittr_2.0.3   Matrix_1.7-0     tools_4.4.0      withr_3.0.0     
-## [33] gtable_0.3.5
+##  [1] vctrs_0.7.2        nlme_3.1-168       cli_3.6.5         
+##  [4] rlang_1.1.7        xfun_0.57          otel_0.2.0        
+##  [7] S7_0.2.1           glue_1.8.0         labeling_0.4.3    
+## [10] formatR_1.14       scales_1.4.0       grid_4.5.3        
+## [13] evaluate_1.0.5     lifecycle_1.0.5    compiler_4.5.3    
+## [16] codetools_0.2-20   RColorBrewer_1.1-3 mgcv_1.9-4        
+## [19] farver_2.1.2       lattice_0.22-9     digest_0.6.39     
+## [22] R6_2.6.1           pillar_1.11.1      splines_4.5.3     
+## [25] Matrix_1.7-5       tools_4.5.3        withr_3.0.2       
+## [28] gtable_0.3.6
 ```
 
 # Misc issues
