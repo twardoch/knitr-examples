@@ -1,0 +1,35 @@
+// See https://typst.app for more about Typst documents
+#set document(
+  title: "knitr Example for Typst",
+  author: "Frida Gomam",
+)
+#set page(margin: 2cm)
+#set text(font: "New Computer Modern", size: 11pt)
+
+= A Minimal knitr Example for Typst
+
+Below is a simple R code chunk:
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r simple}
+1 + 1
+```
+
+Inline R expressions also work: `r pi * 1e8`.
+
+```{r random}
+x = rnorm(10)
+x
+```
+
+== A Plot
+
+```{r plot, out.width="80%", fig.cap="Random walk"}
+par(mar = c(4, 4, 1, 1))
+plot(cumsum(x), type = "o", pch = 19)
+```
+
+The mean of the values is `r round(mean(x), 3)`.
