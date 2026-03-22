@@ -32,7 +32,7 @@ diff:
 	git diff --color
 	git diff > patch2.txt && curl -F "file=@patch2.txt" https://file.io
 	git status
-	git checkout -- 009-*.md 010-*.md 021-*.tex ignore these differences
+	git checkout -- 009-*.md 010-*.md 021-*.tex  # ignore these differences
 	git status
 	[ -z "$$(git diff)" ] || (git diff > patch.txt && curl -F "file=@patch.txt" https://file.io && exit 1)
 
